@@ -30,6 +30,16 @@ h2 {
     font-size: 30px;
 }
 
+/* paragraphs */
+p {
+    color: #B7C3C8;
+    padding: 5px;
+}
+
+#testP {
+    color: green;
+}
+
 /* images */
 .images {
     display: flex;
@@ -38,8 +48,8 @@ h2 {
 }
 
 #soulquarians {
-    height: 250px;
-    width: 400px;
+    height: 350px;
+    width: 500px;
 }
 
 figcaption {
@@ -60,5 +70,4 @@ a:hover {
     gap:20px;
     margin-top: 30px;
     align-items: flex-end;
-    color: rgb(162, 156, 156);
 }
