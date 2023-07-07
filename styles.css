@@ -1,5 +1,7 @@
+/* page */
 body {
     background-color: #586A14;
+    margin: 0px 50px 50px 50px;
 }
 
 figure {
@@ -11,10 +13,23 @@ img {
     width: 400px;
 }
 
+/* section titles */
 h1, h2 {
     text-align: center;
+    color: #C70C17;
+    text-shadow: 1px 3px 5px black;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+/* images */
 .images {
     display: flex;
     gap: 20px;
@@ -24,4 +39,16 @@ h1, h2 {
 #soulquarians {
     height: 250px;
     width: 400px;
+}
+
+figcaption {
+    color: #FF9002;
+}
+
+a:link, a:visited {
+    color: #FF9002;
+}
+
+a:hover {
+    color: #C70C17;
 }
