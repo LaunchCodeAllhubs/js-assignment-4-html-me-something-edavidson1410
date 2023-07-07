@@ -1,1 +1,27 @@
-/* Write your CSS here! */
+body {
+    background-color: #586A14;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#soulquarians {
+    height: 250px;
+    width: 400px;
+}
