@@ -1,7 +1,9 @@
 /* page */
 body {
-    background-color: #586A14;
-    margin: 0px 50px 0px 50px;
+    background-image: linear-gradient(#576B14, azure);;
+    margin: 8px;
+    border: 60px #FF9002 ridge;
+    /* border-left: 60px #576B14 groove; */
     display: block;
 }
 
@@ -10,11 +12,18 @@ figure {
 }
 
 img {
-    height: 400px;
-    width: 400px;
+        height: 300px;
+        width: 300px;
+    display: flex;
 }
 
 /* section titles */
+h1 {
+    background-color: azure;
+    margin: 0px;
+    padding: 20px;
+}
+
 h1, h2 {
     text-align: center;
     color: #C70C17;
@@ -23,6 +32,7 @@ h1, h2 {
 
 #mainHeading {
     font-size: 50px;
+    color: #C70C17;
 }
 
 h2 {
@@ -32,12 +42,14 @@ h2 {
 
 /* paragraphs */
 p {
-    color: #B7C3C8;
+    color: black;
     padding: 5px;
+    border: 5px #FF9002;
+    border-style: solid;
 }
 
-#testP {
-    color: green;
+.funParagraph {
+    color: black;
 }
 
 /* images */
@@ -70,4 +82,8 @@ a:hover {
     gap:20px;
     margin-top: 30px;
     align-items: flex-end;
+}
+
+.footText {
+    color: #B7C3C8;
 }

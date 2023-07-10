@@ -64,14 +64,14 @@ describe ("Grading Tests: ", function () {
       expect(window.getComputedStyle(container.body).margin).toEqual("8px");
    })
 
-   it("CSS funParagraph class is green", function() {
+   it("CSS funParagraph class is #B7C3C8", function() {
       let funParagraphElement = container.getElementById("testP");
-      expect(window.getComputedStyle(funParagraphElement).color).toEqual("green");
+      expect(window.getComputedStyle(funParagraphElement).color).toEqual("#B7C3C8");
    })
 
    it("CSS mainHeading id is red", function() {
       let headingElement = container.getElementById("mainHeading");
-      expect(window.getComputedStyle(headingElement).color).toEqual("red");
+      expect(window.getComputedStyle(headingElement).color).toEqual("#C70C17");
    })
 
    it("HTML includes HTML entities", function() {
