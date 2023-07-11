@@ -9,6 +9,7 @@ body {
 
 figure {
     margin: 0;
+    text-align: center;
 }
 
 img {
@@ -66,10 +67,6 @@ p {
 
 figcaption {
     color: #FF9002;
-}
-
-a {
-    word-wrap: normal;
 }
 
 a:link, a:visited {

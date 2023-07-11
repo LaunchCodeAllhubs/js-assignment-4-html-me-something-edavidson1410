@@ -27,7 +27,7 @@ describe ("Grading Tests: ", function () {
       window.document.head.appendChild(stylesElement);
 
       window.addEventListener("load", function() {
-         container = window.document;
+         container = window.document
       });
    });
 
@@ -69,7 +69,7 @@ describe ("Grading Tests: ", function () {
       expect(window.getComputedStyle(funParagraphElement).color).toEqual("#B7C3C8");
    })
 
-   it("CSS mainHeading id is red", function() {
+   it("CSS mainHeading id is #C70C17", function() {
       let headingElement = container.getElementById("mainHeading");
       expect(window.getComputedStyle(headingElement).color).toEqual("#C70C17");
    })
