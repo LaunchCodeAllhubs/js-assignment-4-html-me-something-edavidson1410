@@ -27,7 +27,7 @@ describe ("Grading Tests: ", function () {
       window.document.head.appendChild(stylesElement);
 
       window.addEventListener("load", function() {
-         container = window.document;
+         container = window.document
       });
    });
 
@@ -64,14 +64,14 @@ describe ("Grading Tests: ", function () {
       expect(window.getComputedStyle(container.body).margin).toEqual("8px");
    })
 
-   it("CSS funParagraph class is green", function() {
+   it("CSS funParagraph class is black", function() {
       let funParagraphElement = container.getElementById("testP");
-      expect(window.getComputedStyle(funParagraphElement).color).toEqual("green");
+      expect(window.getComputedStyle(funParagraphElement).color).toEqual("black");
    })
 
-   it("CSS mainHeading id is red", function() {
+   it("CSS mainHeading id is rgb(199, 12, 23)", function() {
       let headingElement = container.getElementById("mainHeading");
-      expect(window.getComputedStyle(headingElement).color).toEqual("red");
+      expect(window.getComputedStyle(headingElement).color).toEqual("rgb(199, 12, 23)");
    })
 
    it("HTML includes HTML entities", function() {

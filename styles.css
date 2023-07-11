@@ -1,1 +1,90 @@
-/* Write your CSS here! */
+/* page */
+body {
+    background-image: linear-gradient(#576B14, azure);
+    margin: 8px;
+    border: 60px #FF9002 ridge;
+    /* border-left: 60px #576B14 groove; */
+    display: block;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+
+/* section titles */
+h1 {
+    background-image: linear-gradient(#576B14, azure);
+    margin: 0px;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(199, 12, 23);
+    text-shadow: 1px 3px 5px black;
+}
+
+#mainHeading {
+    font-size: 50px;
+    color: rgb(199, 12, 23);
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+/* paragraphs */
+p {
+    color: black;
+    padding: 5px;
+    border: 5px #FF9002;
+    border-style: solid;
+}
+
+.funParagraph {
+    color: black;
+}
+
+/* images */
+.images {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+#soulquarians {
+    height: 350px;
+    width: 500px;
+}
+
+figcaption {
+    color: #FF9002;
+}
+
+a:link, a:visited {
+    color: #FF9002;
+}
+
+a:hover {
+    color: #C70C17;
+}
+
+/* header/footer */
+.footer {
+    display: flex;
+    gap:20px;
+    margin-top: 30px;
+    justify-content: flex-end;
+}
+
+.footText {
+    color: #B7C3C8;
+}
