@@ -69,9 +69,9 @@ describe ("Grading Tests: ", function () {
       expect(window.getComputedStyle(funParagraphElement).color).toEqual("black");
    })
 
-   it("CSS mainHeading id is #C70C17", function() {
+   it("CSS mainHeading id is rgb(199, 12, 23)", function() {
       let headingElement = container.getElementById("mainHeading");
-      expect(window.getComputedStyle(headingElement).color).toEqual("#C70C17");
+      expect(window.getComputedStyle(headingElement).color).toEqual("rgb(199, 12, 23)");
    })
 
    it("HTML includes HTML entities", function() {
