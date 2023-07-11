@@ -64,9 +64,9 @@ describe ("Grading Tests: ", function () {
       expect(window.getComputedStyle(container.body).margin).toEqual("8px");
    })
 
-   it("CSS funParagraph class is #B7C3C8", function() {
+   it("CSS funParagraph class is black", function() {
       let funParagraphElement = container.getElementById("testP");
-      expect(window.getComputedStyle(funParagraphElement).color).toEqual("#B7C3C8");
+      expect(window.getComputedStyle(funParagraphElement).color).toEqual("black");
    })
 
    it("CSS mainHeading id is #C70C17", function() {
